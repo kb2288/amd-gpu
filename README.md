@@ -5,7 +5,7 @@ To build run
 
 ``gradlew jpackage``
 
-the resulting exe can be found under ""
+the resulting exe can be found under "amd-gpu\gpu-task-ui\build\jpackage\amd-gpu"
 
 Use JDK 17:
 
