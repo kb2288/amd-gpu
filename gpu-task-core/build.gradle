@@ -1,0 +1,20 @@
+plugins {
+    id "de.jjohannes.extra-java-module-info" version "0.12"
+}
+
+group 'hp.community.gpu.app.core'
+
+
+extraJavaModuleInfo {
+    automaticModule("aparapi-3.0.0.jar", "aparapi")
+    automaticModule("aparapi-jni-1.4.3.jar", "aparapi.jni")
+}
+
+dependencies {
+
+    // Service
+    implementation project(':gpu-task-service')
+
+    // APARAPI
+    implementation 'com.aparapi:aparapi:3.0.0'
+}

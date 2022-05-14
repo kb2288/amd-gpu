@@ -1,0 +1,6 @@
+rootProject.name = 'amd-gpu-task'
+
+include 'gpu-task-service'
+include 'gpu-task-core'
+include 'gpu-task-ui'
+
