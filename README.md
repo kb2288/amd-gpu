@@ -1,5 +1,6 @@
 # amd-gpu
-This project is inteded for AMD RX 6600m, for HP OMEN 16.1
+This project is intended to fix the black artifacts issue for HP OMEN 16.1 (AMD RX 6600m)
+HP Support does nothing to fix that issue.
 
 To build run 
 
