@@ -17,3 +17,9 @@ Installation guide:
 - Create environment variable JAVA_HOME pointing to the home jdk folder
 
 The release version is here: https://github.com/kb2288/amd-gpu/releases/tag/1.0a
+
+Installation:
+
+1. (Win + R) -> Run -> shell:startup
+2. Place link to amd-gpu.exe
+3. Program will autostart the default task
