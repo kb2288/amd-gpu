@@ -15,3 +15,5 @@ Installation guide:
 - Download JDK 17
 - Unpack ZIP FILE
 - Create environment variable JAVA_HOME pointing to the home jdk folder
+
+The release version is here: https://github.com/kb2288/amd-gpu/releases/tag/1.0a
