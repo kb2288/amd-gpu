@@ -24,7 +24,7 @@ public class DefaultGpuTask implements GpuTask {
   private static final int MAX_RANGE = 4096;
   private static final String TASK_NAME = "Default";
 
-  private boolean isRunning = false;
+  private volatile boolean isRunning = false;
 
   // Run the task
   public void start() {
